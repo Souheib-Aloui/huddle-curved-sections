@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  gap: 2rem;
+  place-items: center;
+}
+.blue-bg {
+  background-color: var(--VeryPale-Blue);
+ 
+}
+section {
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section > * {
+  flex: 1;
+}
+section h2 {
+  font-size: 1.3rem;
+}
+section p {
+  margin-top: 1rem;
+  color: var(--VeryDark-Cyan);
+  font-size: 0.925rem;
+  line-height: 1.4;
+}
+section article img {
+ padding: 1.5rem;
+}
+div aside {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  max-width: 400px;
+  text-align: center;
+  
+}
+aside h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+aside button {
+  max-width: 290px;
+  margin-bottom: 5rem;
+}
